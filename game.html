@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jogo Adivinha</title>
+<style>
+	body{
+		background: #e8e8e8;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		font: 600 40px Arial;
+	}
+	div{
+		background: #FFF;
+		padding: 40px 15px;
+		box-shadow: 3px 2px 5px 0px #a9a9a9;
+    border-radius: 10px;
+	}
+	input, button{
+		font-size: 35px;
+		outline: none;
+	}
+	button{
+		background: #12ccba;
+		border: none;
+		color: #FFF;
+		padding: 3px 25px;
+	}
+	a{
+		display: block;
+		background: #08bb60;
+		text-align: center;
+		padding: 10px 0;
+		color: #FFF;
+		text-decoration: none;
+	}
+</style>
+</head>
+<body>
+<div>
+	<input type="text">
+	<button onclick="verificar()">TENTAR</button>
+	<p id="erros">Erros:</p>
+	<p id="dica">Dica:</p>
+	<a href="game.html" id="reset">Jogar de Novo</a>
+</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
