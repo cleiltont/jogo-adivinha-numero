@@ -1,4 +1,5 @@
 ## 🗒 Sobre:
+![](tela-jogo.PNG)
 Tente adivinhar qual numero foi gerado de 1 a 100.
 Sao 10 tentativas.
 
